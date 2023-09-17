@@ -5,7 +5,7 @@ This is the format for block comment
 
 let js = 'amazing';
 
-let firstName = "Gary"; // use camelCase for variable naming
+let firstName = "Dev"; // use camelCase for variable naming
 console.log(firstName);
 
 let PI = 3.141; // use all upper case for constants!
