@@ -168,13 +168,14 @@ console.log('23' - 10 + '3'); // first coerce to Number, then coerce to String a
 // There are 5 falsey values: 0, '', undefined, null, NaN
 // Everything else is truthy
 
-console.log(Boolean(0));
-console.log(Boolean(10));
-console.log(Boolean(undefined));
-console.log(Boolean('Alabhya'));
-console.log(Boolean(null));
-console.log(Boolean({}));
-console.log(Boolean(NaN));
+console.log(Boolean(0));  // false
+console.log(Boolean(10)); // true
+console.log(Boolean(undefined)); // false
+console.log(Boolean('Alabhya')); // true
+console.log(Boolean(null)); // false
+console.log(Boolean({})); // true
+console.log(Boolean(NaN)); // false
+console.log(Boolean('')); // false
 
 
 /****************Different types of Equality****************/
